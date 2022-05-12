@@ -38,8 +38,7 @@ public class ContentPane extends JFrame{
 
     }
     public void thisIsANewMethod() {
-        super.paintComponent(g);
-
+        JPanel pan = new JPanel();
     }
 
 }
