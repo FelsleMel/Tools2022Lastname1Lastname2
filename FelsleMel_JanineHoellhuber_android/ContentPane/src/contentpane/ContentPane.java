@@ -16,17 +16,17 @@ import javax.swing.JPanel;
  * @author Mely
  */
 public class ContentPane extends JFrame{
-    
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         JPanel pan = new JPanel(){
-            @Override 
+            @Override
             public void paintComponent(Graphics g){
                 super.paintComponent(g);
                 g.drawString("This is written by an anonymous class!", 10, 10);
-		    //neuer Kommentar für Git 
+		    //neuer Kommentar für Git
             }
         };
         ContentPane cp= new ContentPane();
@@ -35,8 +35,11 @@ public class ContentPane extends JFrame{
       cp.setSize(300, 250);
       cp.setVisible(true);
       cp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-   
+
     }
-    public void thisIsANewMethod() { }
-    
+    public void thisIsANewMethod() {
+        super.paintComponent(g);
+
+    }
+
 }
