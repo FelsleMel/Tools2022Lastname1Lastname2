@@ -26,6 +26,7 @@ public class ContentPane extends JFrame{
             public void paintComponent(Graphics g){
                 super.paintComponent(g);
                 g.drawString("This is written by an anonymous class!", 10, 10);
+		    //neuer Kommentar für Git 
             }
         };
         ContentPane cp= new ContentPane();
