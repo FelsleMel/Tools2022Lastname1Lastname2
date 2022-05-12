@@ -36,5 +36,6 @@ public class ContentPane extends JFrame{
       cp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    
     }
+    public void thisIsANewMethod() { }
     
 }
