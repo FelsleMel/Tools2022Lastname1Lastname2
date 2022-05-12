@@ -28,17 +28,23 @@ public class ContentPane extends JFrame{
                 g.drawString("This is written by an anonymous class!", 10, 10);
 		    //neuer Kommentar für Git
             }
-        };
+        }; //BEST COMMENT EVER!!
         ContentPane cp= new ContentPane();
        cp.setContentPane(pan);
        cp.setLocation(0, 0);
+       cp.setLocation(2,3);
       cp.setSize(300, 250);
       cp.setVisible(true);
       cp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      cp.setVisible(false);
 
     }
     public void thisIsANewMethod() {
         JPanel pan = new JPanel();
+        //new code line
     }
 
+    public void thisIsAnotherNewMethod(){
+        //hello!!
+    }
 }
