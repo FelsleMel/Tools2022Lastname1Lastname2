@@ -39,6 +39,7 @@ public class ContentPane extends JFrame{
     }
     public void thisIsANewMethod() {
         JPanel pan = new JPanel();
+        //hello world
     }
 
 }
